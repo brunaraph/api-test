@@ -1,11 +1,21 @@
-Passo 1: Configurar o Ambiente de Teste
+API Test
+Este repositório contém testes para uma API GraphQL usando Jest, Babel e Apollo Client.
 
-Crie um novo diretorio de testes
+Configuração do Ambiente
+Para configurar e executar este projeto localmente, siga os passos abaixo:
 
-mkdir api-test
+Clone o Repositório:
+
+git clone https://github.com/brunaraph/api-test.git
 cd api-test
-npm init -y
+Instale as Dependências:
 
-Instale as dependências necessárias:
+Certifique-se de ter Node.js e npm instalados. Em seguida, instale as dependências necessárias:
 
-npm install @apollo/client graphql jest babel-jest @babel/preset-env @babel/preset-react cross-fetch
+npm install
+
+Executar os Testes:
+
+Para executar os testes, use o seguinte comando:
+
+npm test
